@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      🚀 Powered by
+      Powered by
       <a
         ref={liteBadge}
         href={'https://burstbyte.net'}
@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> BurstByte</span>
+        <span> 🚀 BurstByte</span>
       </a>
     </span>
   );
